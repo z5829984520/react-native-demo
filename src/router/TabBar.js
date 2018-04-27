@@ -69,8 +69,8 @@ const TabBar = TabNavigator({
   lazy: true, // 是否开启懒加载
   tabBarPosition: 'bottom', // 位置 top bottom
   initialRouteName: 'Home', // 打开app默认进入页面
-  animationEnabled: true, // 是否需要切换动画
-  swipeEnabled: true, // 是否开启左右滑动切换
+  animationEnabled: false, // 是否需要切换动画
+  swipeEnabled: false, // 是否开启左右滑动切换
   tabBarOptions: {
     activeTintColor: DEFAULT_TAB_ACTIVE_COLOR, // 激活颜色
     inactiveTintColor: DEFAULT_TAB_COLOR, // 未激活颜色
